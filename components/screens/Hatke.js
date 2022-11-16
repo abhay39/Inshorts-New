@@ -53,14 +53,14 @@ const Hatke = () => {
             paramKey:item.readMoreUrl
           })}
         >
-          <Image
+           <Image
             source={{uri:item.imageUrl}}
             style={{
-              resizeMode: "contain",
+              resizeMode: "center",
               alignItems: "center",
               justifyContent: "center",
               marginLeft: -10,
-              height: 250,
+              height: 260,
               width: 370,
               borderRadius: 20,
               marginTop: -10
@@ -74,7 +74,7 @@ const Hatke = () => {
               textAlign: "center"
             }}
           >
-            {title?.slice(0,50)}..more
+            {title}
           </Text>
           <Text
             style={{
@@ -84,7 +84,7 @@ const Hatke = () => {
               color: "black"
             }}
           >
-            {content?.slice(0,150)}..more
+            {content?.slice(0,250)}..more
           </Text>
           <View
             style={{
@@ -107,7 +107,7 @@ const Hatke = () => {
             <Text
               style={{
                 
-                fontSize: 20,
+                fontSize: 19,
                 fontWeight: "500",
                 color: "black",
                 left: 50
@@ -127,7 +127,7 @@ const Hatke = () => {
             <Text
               style={{
                 
-                fontSize: 20,
+                fontSize: 18,
                 fontWeight: "500",
                 color: "black",
                 left: 10

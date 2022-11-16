@@ -42,7 +42,7 @@ const App = () => {
         <Stack.Screen name='Startup' component={Startup} />
         <Stack.Screen name='Entertainment' component={Entertainment} />
         <Stack.Screen name='Miscellaneous' component={Miscl} />
-        <Stack.Screen name='Hakte' component={Hatke} />
+        <Stack.Screen name='Hatke' component={Hatke} />
         <Stack.Screen name='Automobile' component={Automobile} />
         <Stack.Screen name='National' component={National} />
       </Stack.Navigator>
